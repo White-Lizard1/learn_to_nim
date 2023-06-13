@@ -1,7 +1,7 @@
 kernel_spec:
-  display_name: R 4.1
+  display_name: R 4.3
   language: r
-  name: r4.1
+  name: r4.3
   
 build:
   image: rocker/r-ver:4.1.0
