@@ -1,0 +1,11 @@
+kernel_spec:
+  display_name: R 4.1
+  language: r
+  name: r4.1
+  
+build:
+  image: rocker/r-ver:4.1.0
+
+include:
+  - images/
+  - nim_functions.R
