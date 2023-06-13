@@ -1,10 +1,16 @@
-kernel_spec:
-  display_name: R 4.3
-  language: r
-  name: r4.3
+language: r
+
+dependencies:
+  - r
+  - r-base
+  - r-essentials
+  - r-devtools
   
-build:
-  image: rocker/r-ver:4.1.0
+runtime:
+  working_dir: ""
+  command: |
+    R -e "IRkernel::installspec()"
+    jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
 include:
   - images/
