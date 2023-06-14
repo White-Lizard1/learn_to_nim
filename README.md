@@ -1,7 +1,7 @@
 # Learn to Nim
 
-!! if anyone looks at this rn know it is not finished !!
+!!work in progress, this currently does not work!!
 
-Learn the simple board game of Nim and the mathematical theory behind it. (We are not legally responsible for any game losses incurred by misapplication of the strategy contained herein.)
+https://mybinder.org/v2/gh/White-Lizard1/learn_to_nim/main?labpath=nim.ipynb
 
-Additional stuff
+The link above should take you to an interactive Jupyter notebook 
