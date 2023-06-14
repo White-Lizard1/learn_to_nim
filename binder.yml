@@ -5,12 +5,12 @@ dependencies:
   - r-base
   - r-essentials
   - r-devtools
-  
+
+
 runtime:
-  working_dir: ""
-  command: |
-    R -e "IRkernel::installspec()"
-    jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+  postBuild:
+    - R -e "IRkernel::installspec()"
+
 
 include:
   - images/
