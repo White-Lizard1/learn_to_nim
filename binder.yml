@@ -1,16 +1,12 @@
-language: r
-
 dependencies:
-  - r
   - r-base
   - r-essentials
   - r-devtools
-
+  - irkernel
 
 runtime:
   postBuild:
     - R -e "IRkernel::installspec()"
-
 
 include:
   - images/
