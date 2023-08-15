@@ -1,6 +1,6 @@
 # Learn to Nim
 
-Welcome to the thrilling world of combinatorial game theory. Choose, of the three following methods of accessing the file, whichever one best suits you.
+Welcome to the wild and wacky world of combinatorial game theory, starring the game of Nim! Of the three following methods of accessing the file, choose whichever one best suits you.
 
 ![image_choice](images/readme_drawing1.png)
 
