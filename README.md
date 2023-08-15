@@ -4,7 +4,7 @@ Welcome to the thrilling world of combinatorial game theory. Choose, of the thre
 
 ![image_choice](images/readme_drawing1.png)
 
-The simplest way to access is through Binder, which allows to you interact with the file in a brower, no setup needed. Downside: the website is slow and sometimes it completely fails to work. Good luck. https://mybinder.org/v2/gh/White-Lizard1/learn_to_nim/main?labpath=nim.ipynb
+The simplest way to access is through Binder ([here](https://mybinder.org/v2/gh/White-Lizard1/learn_to_nim/main?labpath=nim.ipynb)), which allows to you interact with the file in a brower, no setup needed. Downside: the website is slow and sometimes it completely fails to work. Good luck. 
 
 My preferred way, which should be simple enough for those who have experience with computers: download the file nim.ipnyb (**i**nteractive **py**thon **n**ote**b**ook), download [Jupyter notebook](https://jupyter.org/install), download [R 4.3.0](https://cran.r-project.org/bin/windows/base/old/4.3.0/), open R, and type the following lines of code to install IRkernel (so R works in Jupyter):
 
