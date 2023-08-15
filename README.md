@@ -14,7 +14,7 @@ IRkernel::installspec(user = FALSE)
 
 Then open command prompt, type in "jupyter notebook filepath" but replace filepath with the nim.ipnyb filepath. When it opens the notebook in your browser, select "Kernel" and change the kernel to R. If I didn't write this incorrectly it should work. 
 
-The third option: If all else fails, you can always use the [HTML version](https://github.com/White-Lizard1/learn_to_nim/blob/main/nim.html), which has the downside that you can't interact with the file (which means you can't play Nim, which slightly lowers the experience).
+The third option: If all else fails, you can always use the [HTML version](https://white-lizard1.github.io/learn_to_nim/), which has the downside that you can't interact with the file (which means you can't play Nim, which slightly lowers the experience).
 
 Unfortunately I could not find a way to make the file interactable, simple, and reliable at the same time. If you know a better option let me know.
 
