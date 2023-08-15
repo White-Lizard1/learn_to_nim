@@ -1,1 +1,26 @@
+name: Configure GitHub Pages
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up GitHub Pages
+        run: |
+          echo '<meta http-equiv="refresh" content="0; url=index.html">' > index.html
+          mkdir -p .github/workflows/output
+          mv index.html .github/workflows/output
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .github/workflows/output
