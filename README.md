@@ -1,6 +1,6 @@
 # Learn to Nim
 
-Welcome to the wild and wacky world of combinatorial game theory, starring the game of Nim! There are three similar but distinct ways of accessing the lesson, so choose the method that best suits you.
+Welcome to the wild and wacky world of combinatorial game theory, starring the game of Nim! There are three similar but distinct ways of accessing the lesson, so select the method that best suits you.
 
 ![image_choice](images/readme_drawing1.png)
 
