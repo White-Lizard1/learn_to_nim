@@ -1,4 +1,6 @@
-# Hello person who decided to open this
+# Hello, person who decided to open this.
+# This file contains all the functions for running the interactive lesson. If you desire to explore these, you can download and open this in R.
+# Forgive me for not being the best programmer.
 
 random_setups_1 <- matrix(c(1,2,4,7,1,2,5,6,1,3,4,6,1,3,5,7,2,3,4,5,2,3,6,7,2,3,8,9,4,5,6,7,4,5,8,9),9,byrow=1)
 bitwXorMult <- function(x) {
